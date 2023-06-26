@@ -22,3 +22,7 @@ for (n in x){
   }
 }
 print(k)
+names(idades) <- c('Maria','Cláudio','Jr','Ligia')
+print(idades)
+
+
