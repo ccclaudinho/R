@@ -23,6 +23,19 @@ for (n in x){
 }
 print(k)
 names(idades) <- c('Maria','Cláudio','Jr','Ligia')
-print(idades)
+order(idades)
+sort(idades,decreasing = T)
+vet1 <- c(2,4,6)
+vet2 <- c(1,3,5)
+vet3 <- vet1+vet2
+vet3
 
+plot(x)
+
+x <-c(1,2,3,4)
+y <-c(10,12,14,18)
+plot(x,y)
+dados <- c(50,30,10,10)
+names(dados)<-c('pai','mae','filho1','filho2')
+pie(dados) #pie cria um gráfico de pizza#
 
